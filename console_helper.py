@@ -34,7 +34,12 @@ class ConsoleHelper(Thread):
         self._status = ""
         
     def clear(self) -> None:
-        max_columns = os.get_terminal_size().columns - 1
+        max_columns: int
+        try:
+            max_columns = os.get_terminal_size().columns - 1
+        except OSError:
+            max_columns = 80
+
         print(f"\r{' ' * max_columns}\r", end="")
         
     def print(self, msg: str) -> None:
