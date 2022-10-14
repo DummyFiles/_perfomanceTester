@@ -125,6 +125,8 @@ This script was created to test (and compare) the performance of `DummyImage` im
 
 ## Usage:
 
+> Install Python 3.6+
+
 ```
 usage: main.py [-h] [--binary-command BINARY_COMMAND] [--additional-args ADDITIONAL_ARGS] [--temp-dir TEMP_DIR] [--delete-after-each] [--keep-all] [--repeats-count REPEATS_COUNT] [--generate-md-report] [--md-output MD_OUTPUT]
                [--generate-json-report] [--json-output JSON_OUTPUT] [--std-report-delimiter STD_REPORT_DELIMITER] [--disable-log-output] [--disable-console-spinner] [--skip-drive-benchmark] [--test-sizes-list TEST_SIZES_LIST]
