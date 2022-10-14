@@ -8,6 +8,8 @@ This script was created to test (and compare) the performance of `DummyImage` im
  
 \[[Search more](https://github.com/orgs/DummyFiles/repositories?q=topic%3Adummyimage&type=all)]
 
+> This is a controversial test, but I consider the current accuracy sufficient for comparisons.
+
 ## Reports examples:
 
 <details> <summary> 
@@ -27,6 +29,8 @@ This script was created to test (and compare) the performance of `DummyImage` im
   | `stains` | 0.001504 | 0.003642 | 0.007912 | 0.01247 | 0.175 | 1.525 | 1.726 |
   | `alt_stains` | 0.00146 | 0.00476 | 0.008646 | 0.01415 | 0.1981 | 1.7 | 1.927 |
   | `cold_grid` | 0.001446 | 0.006434 | 0.01618 | 0.03039 | 0.4541 | 3.693 | 4.202 |
+  
+  > Note: Values are in seconds
 </details>
   
 <details> <summary> 
