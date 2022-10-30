@@ -3,6 +3,8 @@ import json
 import re
 import os
 
+from shutil import rmtree
+
 from typing import Dict, Tuple, Sequence, Optional
 
 from console_helper import ConsoleHelper
@@ -233,7 +235,7 @@ if __name__ == '__main__':
                     current_stage += 1
 
         if not args.keep_all:
-            os.removedirs(temp_bin_path)
+            rmtree(temp_bin_path)
 
         for req in reports_request:
             console.set_status(f"Generating [{req[0].upper()}] report...")
